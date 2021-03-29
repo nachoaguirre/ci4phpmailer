@@ -1,5 +1,5 @@
 <?php
-namespace App\Libraries;
+namespace Nachoaguirre\Ci4phpmailer\Libraries;
 
 use CodeIgniter\Email\Email as BaseEmail;
 use PHPMailer\PHPMailer\PHPMailer;

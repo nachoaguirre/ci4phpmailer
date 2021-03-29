@@ -1,5 +1,5 @@
 {
-  "name": "nachoaguirre/ci4-email-phpmailer",
+  "name": "nachoaguirre/ci4phpmailer",
   "description": "Overrides CodeIgniter 4 Email Class to send smtp with PHPMailer",
   "keywords": [
     "codeigniter",
@@ -7,7 +7,7 @@
     "smtp",
     "phpmailer"
   ],
-  "homepage": "https://github.com/nachoaguirre/ci4-email-phpmailer",
+  "homepage": "https://github.com/nachoaguirre/ci4phpmailer",
   "license": "MIT",
   "authors": [
     {
@@ -30,7 +30,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "App\\Libraries\\Email\\": "src"
+      "Nachoaguirre\\Ci4phpmailer": "src"
     }
   }
 }

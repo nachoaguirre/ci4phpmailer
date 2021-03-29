@@ -1,11 +1,11 @@
-<?php namespace App\Controllers;
+<?php namespace Nachoaguirre\Ci4phpmailer\Controllers;
 
-use App\Libraries\Email;
+use Nachoaguirre\Ci4phpmailer\Libraries\Email;
 
 class Sendtest extends BaseController {
 
 	public function index(){		
-		$email = new \App\Libraries\Email;
+		$email = new \Nachoaguirre\Ci4phpmailer\Libraries\Email;
 		
 		$config['protocol']   = 'smtp';
 		$config['SMTPHost']   = 'smtp.gmail.com';
