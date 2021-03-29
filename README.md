@@ -2,13 +2,21 @@
 
 A simple package that extends the [Email class](https://codeigniter4.github.io/userguide/libraries/email.html) of CodeIgniter 4, modifying the SMTP protocol for sending through [PHPMailer](https://github.com/PHPMailer/PHPMailer).
 
-Install with composer:
+
+1. Install with Composer:
+
 `composer require nachoaguirre/ci4phpmailer`
 
-Then load the librarie:
+
+
+2. Load the Class:
+
 `use Nachoaguirre\Ci4phpmailer\Libraries\Email;`
 
-Then use almost same way the Email class (except the initiation):
+
+
+3. Use in the same way the Email class:
+
 `$email = new \Nachoaguirre\Ci4phpmailer\Libraries\Email;
 		
 $config['protocol']   = 'smtp';
