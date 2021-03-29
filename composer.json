@@ -17,10 +17,17 @@
       "role": "Developer"
     }
   ],
-  
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/codeigniter4/CodeIgniter4"
+    }
+  ],
   "require": {
+	"php" : ">=7.2",  
     "phpmailer/phpmailer": "^6.2"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "App\\Libraries\\Email\\": "src"
