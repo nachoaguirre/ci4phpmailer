@@ -30,7 +30,7 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Nachoaguirre\\Ci4phpmailer": "src"
+      "Nachoaguirre\\Ci4phpmailer\\": "src"
     }
   }
 }
